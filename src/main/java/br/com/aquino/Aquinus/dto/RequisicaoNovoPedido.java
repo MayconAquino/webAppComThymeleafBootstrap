@@ -1,12 +1,18 @@
 package br.com.aquino.Aquinus.dto;
-
+import javax.validation.constraints.NotBlank;
 import br.com.aquino.Aquinus.model.Pedido;
 
 public class RequisicaoNovoPedido {
-	
+
+	@NotBlank
 	private String nomeProduto;
+	
+	@NotBlank
 	private String urlProduto;
+	
+	@NotBlank
 	private String urlImagem;
+	
 	private String descricao;
 	
 	public String getNomeProduto() {
