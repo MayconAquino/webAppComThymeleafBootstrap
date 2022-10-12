@@ -22,7 +22,7 @@ public class Pedido {
 	private String urlImagem;
 	private String descricao;
 	
-	@Enumerated(EnumType.STRING)
+	@Enumerated(EnumType.STRING)//Teste
 	private StatusPedido status;
 	
 	public String getNomeProduto() {
